@@ -1,0 +1,102 @@
+body {
+    height: 100%;
+    background-color: black;
+    font-family: Tahoma, sans-serif;
+}
+#flag {
+    width: 23%;
+    height: 11.5vh;
+}
+.header {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.txt {
+    color: white;
+    text-align: center;
+}
+.main {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    margin-top: 3%;
+}
+.addtxt {
+    width: 70%;
+    padding: 10px;
+    background-color: white;
+    border-radius: 3px;
+    text-align: center;
+
+}
+.election_activities {
+    list-style-type: circle;
+    padding: 10px;
+    background-color: white;
+    border-radius: 3px;
+    margin-top: 35px;
+    display: none;
+}
+.addinput {
+    width: 70%;
+    padding: 15px 10px;
+    border: 1px solid green;
+    border-radius: 3px;
+}
+.addinput:focus {
+    outline-color: green;
+}
+.addbtn {
+    width: 25%;
+    color: white;
+    padding: 15px 10px;
+    border-radius: 3px;
+    border: 1px solid green;
+    background-color: green;
+    margin-left: 15px;
+    cursor: pointer
+}
+.addbtn:hover{
+    cursor: pointer;
+    background-color: white;
+    color: green;
+}
+.activities{
+    height: 45px;
+    border-radius: 3px;
+    background-color: lightgreen;
+    color: green;
+    margin-bottom: 5px;
+    padding: 5px 8px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+}
+.activities span{
+    font-size: 20px;
+}
+.activities button{
+    /* removed  the width and gave it padding */
+    height: 100%;
+    background-color: green;
+    color: white;
+    border: 1px solid green;
+    border-radius: 3px;
+    cursor: pointer;
+    padding: 5px 15px;
+}
+/* added hover class */
+.activities button:hover{
+    background-color: white;
+    color: green;
+}
+/* .main_footer{
+    background-color: green;
+    color: white;
+    padding: .2rem;
+    text-align: center;
+} */
